@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ActivityVerticalPadding">16dp</dimen>
+    <dimen name="ActivityHorizontalPadding">16dp</dimen>
+    <dimen name="ListItemHorizontalPadding">8dp</dimen>
+    <dimen name="ListItemColumnPadding">8dp</dimen>
+    <dimen name="ListItemVerticalPadding">8dp</dimen>
+    <dimen name="ColumnPadding">8dp</dimen>
+    <dimen name="RowPaddingTop">8dp</dimen>
+    <dimen name="ListItemRowRuleHeight">2dp</dimen>
+    <dimen name="ListHeaderRuleHeight">4dp</dimen>
+</resources>

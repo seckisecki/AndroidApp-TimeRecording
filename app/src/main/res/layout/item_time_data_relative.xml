@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/StartTimeValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@id/CenterHelper"
+        android:paddingStart="@dimen/ListItemHorizontalPadding"
+        android:paddingTop="@dimen/ListItemVerticalPadding"
+        android:paddingBottom="@dimen/ListItemVerticalPadding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="2018-01-11T17:55" />
+
+    <View
+        android:id="@+id/CenterHelper"
+        android:layout_width="@dimen/ListItemColumnPadding"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/EndTimeValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/CenterHelper"
+        android:paddingTop="@dimen/ListItemVerticalPadding"
+        android:paddingEnd="@dimen/ListItemHorizontalPadding"
+        android:paddingBottom="@dimen/ListItemVerticalPadding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="2018-01-11T22:13" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItemRowRuleHeight"
+        android:layout_below="@id/StartTimeValue"
+        android:background="@color/colorAccent" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time Tracking</string>
+    <string name="LabelStartTime">Start time:</string>
+    <string name="LabelEndTime">End time:</string>
+    <string name="ButtonStart">Start</string>
+    <string name="ButtonEnd">Finish</string>
+    <string name="MenuListData">Listing</string>
+    <string name="ColumnHeaderStartTime">Start Time</string>
+    <string name="ColumnHeaderEndTime">End Time</string>
+    <string name="TimeDataActivityTitle">Listing</string>
+    <string name="MoreIcon">Icon</string>
+    <string name="MenuItemDelete">Delete</string>
+    <string name="ButtonDelete">ButtonDelete</string>
+    <string name="ButtonCancel">ButtonCancel</string>
+    <string name="DialogMessageDeleteItem">DialogMessage</string>
+    <string name="DialogTitleDeleteItem">DialogTitle</string>
+    <string name="MenuExport">Export data</string>
+    <string name="LabelComment">comment</string>
+    <string name="LabelPause">pause</string>
+    <string name="MenuItemEdit">Edit</string>
+    <string name="ExportNotificationTitle">CSV Export</string>
+    <string name="ExportNotificationMessage">data is exported as csv</string>
+    <string name="ExportNotificationChannel">CSV Export</string>
+    <string name="ExportNotificationChannelDescription">Export of csv data</string>
+    <string name="ExportNotificationFinischMessage">CSV Export finished</string>
+    <string name="DialogTitleExport">export</string>
+    <string name="DialogMessageExport">data is exported as csv data</string>
+    <string name="EditDataActivityTitle">Edit</string>
+    <string name="MenuInfo">info</string>
+</resources>

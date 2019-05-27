@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TimeTracker</string>
+    <string name="LabelStartTime">Startzeit:</string>
+    <string name="LabelEndTime">Endzeit:</string>
+    <string name="ButtonStart">Starten</string>
+    <string name="ButtonEnd">Beenden</string>
+    <string name="MenuListData">Auflistung</string>
+    <string name="ColumnHeaderStartTime">Startzeit</string>
+    <string name="ColumnHeaderEndTime">Endzeit</string>
+    <string name="TimeDataActivityTitle">Auflistung</string>
+    <string name="MoreIcon">Icon</string>
+    <string name="MenuItemDelete">Löschen</string>
+    <string name="ButtonDelete">ButtonDelete</string>
+    <string name="ButtonCancel">ButtonCancel</string>
+    <string name="DialogMessageDeleteItem">DialogMessageDeleteItem</string>
+    <string name="DialogTitleDeleteItem">DialogTitleDeleteItem</string>
+    <string name="MenuExport">Datenexport</string>
+    <string name="LabelComment">Kommentar</string>
+    <string name="LabelPause">Pause</string>
+    <string name="MenuItemEdit">Bearbeiten</string>
+    <string name="ExportNotificationTitle">CSV Export</string>
+    <string name="ExportNotificationMessage">Daten werden als CSV-Datei exportiert</string>
+    <string name="ExportNotificationChannel">CSV Export</string>
+    <string name="ExportNotificationChannelDescription">Export der Daten als CSV-Datei</string>
+    <string name="ExportNotificationFinischMessage">CSV Export abgeschlossen</string>
+    <string name="DialogTitleExport">Export</string>
+    <string name="DialogMessageExport">Daten werden als CSV-Datei exportiert.</string>
+    <string name="EditDataActivityTitle">Bearbeiten</string>
+    <string name="MenuInfo">Info</string>
+</resources>

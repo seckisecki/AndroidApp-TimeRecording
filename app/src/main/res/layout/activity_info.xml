@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebView
+    tools:context="com.example.timerecording.InfoActivity"
+    android:paddingBottom="@dimen/ActivityVerticalPadding"
+    android:paddingEnd="@dimen/ActivityHorizontalPadding"
+    android:paddingTop="@dimen/ActivityVerticalPadding"
+    android:paddingStart="@dimen/ActivityHorizontalPadding"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/WebContent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+</WebView>

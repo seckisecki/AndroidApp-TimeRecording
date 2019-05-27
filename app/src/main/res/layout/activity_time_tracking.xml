@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    tools:context=".TimeTrackingActivity"
+    android:paddingTop="@dimen/ActivityVerticalPadding"
+    android:paddingStart="@dimen/ActivityHorizontalPadding"
+    android:paddingEnd="@dimen/ActivityHorizontalPadding"
+    android:paddingBottom="@dimen/ActivityVerticalPadding"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/LabelStartTime"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/StartDateTime"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/LabelEndTime"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/EndDateTime"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/ButtonStart"
+        android:id="@+id/StartCommand"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/ButtonEnd"
+        android:id="@+id/EndCommand"/>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:paddingBottom="@dimen/ListItemVerticalPadding"
+    android:paddingEnd="@dimen/ListItemHorizontalPadding"
+    android:paddingTop="@dimen/ListItemVerticalPadding"
+    android:paddingStart="@dimen/ListItemHorizontalPadding">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        tools:text="2018-01-11T17:55"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_weight="1"
+        android:id="@+id/StartTimeValue"/>
+
+    <View
+        android:layout_height="0dp"
+        android:layout_width="@dimen/ListItemColumnPadding"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        tools:text="2018-01-11T22:13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_weight="1"
+        android:id="@+id/EndTimeValue"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/MoreIcon"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_weight="1"
+        android:id="@+id/MoreIconText"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+    <View
+        android:layout_height="@dimen/ListItemRowRuleHeight"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="2">
+
+    <TextView
+        android:id="@+id/StartTimeValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:paddingStart="@dimen/ListItemHorizontalPadding"
+        android:paddingTop="@dimen/ListItemVerticalPadding"
+        android:paddingBottom="@dimen/ListItemVerticalPadding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="2018-01-11T17:55" />
+
+    <Space
+        android:layout_width="@dimen/ListItemColumnPadding"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/EndTimeValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnWeight="1"
+        android:paddingTop="@dimen/ListItemVerticalPadding"
+        android:paddingEnd="@dimen/ListItemHorizontalPadding"
+        android:paddingBottom="@dimen/ListItemVerticalPadding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="2018-01-11T22:13" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ListItemRowRuleHeight"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:background="@color/colorAccent" />
+</GridLayout>
